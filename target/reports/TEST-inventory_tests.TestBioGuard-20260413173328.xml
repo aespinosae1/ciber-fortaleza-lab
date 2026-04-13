@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="inventory_tests.TestBioGuard-20260413173328" tests="3" file="inventory_tests.py" time="0.011" timestamp="2026-04-13T17:33:28" failures="1" errors="0" skipped="0">
+	<testcase classname="inventory_tests.TestBioGuard" name="test_exception_negative_qty" time="0.000" timestamp="2026-04-13T17:33:28"/>
+	<testcase classname="inventory_tests.TestBioGuard" name="test_stock_incremental" time="0.000" timestamp="2026-04-13T17:33:28"/>
+	<testcase classname="inventory_tests.TestBioGuard" name="test_range_temperature" time="0.010" timestamp="2026-04-13T17:33:28">
+		<failure type="AssertionError" message="True is not false"><![CDATA[Traceback (most recent call last):
+  File "C:\Users\Vespertino\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\case.py", line 58, in testPartExecutor
+    yield
+  File "C:\Users\Vespertino\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\case.py", line 669, in run
+    self._callTestMethod(testMethod)
+    
+  File "C:\Users\Vespertino\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\case.py", line 615, in _callTestMethod
+    result = method()
+    ^^^^^^^^^^^^^^^
+  File "c:\users\vespertino\desktop\bioguard_project\src\unittest\python\inventory_tests.py", line 23, in test_range_temperature
+    self.assertFalse(check_temp(0))  # 0 ahora está FUERA del rango (debe ser False)
+    ^^^^^^^^^^^^^^^
+  File "C:\Users\Vespertino\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\case.py", line 756, in assertFalse
+    raise self.failureException(msg)
+    ^^^^^^^^^^^
+AssertionError: True is not false
+]]></failure>
+	</testcase>
+</testsuite>

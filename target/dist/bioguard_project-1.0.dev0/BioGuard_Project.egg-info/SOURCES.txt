@@ -1,0 +1,9 @@
+inventory.py
+setup.py
+validator.py
+BioGuard_Project.egg-info/PKG-INFO
+BioGuard_Project.egg-info/SOURCES.txt
+BioGuard_Project.egg-info/dependency_links.txt
+BioGuard_Project.egg-info/namespace_packages.txt
+BioGuard_Project.egg-info/top_level.txt
+BioGuard_Project.egg-info/zip-safe
